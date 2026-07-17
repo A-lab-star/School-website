@@ -1028,7 +1028,7 @@ left: '8px',
       </div>
     </div>
      <>
-      {/* Call To Action Section */}
+      
       <div
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url(${School})`,
@@ -1075,10 +1075,7 @@ left: '8px',
               marginBottom: "30px",
             }}
           >
-            Every great future starts with a single step. Join a school where
-            every child is valued, every ability celebrated, and every dream
-            given the opportunity to grow. Admissions are now open for the
-            upcoming academic session.
+            Enroll your child at School for the Special Needs, Iseyin where care meets excellence. We offer quality special education, a supportive community, and opportunities for every learner to grow, thrive, and shine. Admission is now open for the upcoming session!
           </p>
 
           <button
@@ -1103,7 +1100,7 @@ left: '8px',
         </div>
       </div>
 
-      {/* Footer */}
+      
 
       <footer
         style={{
@@ -1113,7 +1110,7 @@ left: '8px',
           fontFamily: "Arial, sans-serif",
         }}
       >
-        {/* Top Footer */}
+        
 
         <div
           style={{
@@ -1223,7 +1220,7 @@ left: '8px',
           </div>
         </div>
 
-        {/* Bottom Footer */}
+        
 
         <div
           style={{

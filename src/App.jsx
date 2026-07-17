@@ -8,7 +8,7 @@ import ContactUs from './component/ContactUs'
 const App = () => {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       <About />
       <News />
       <Gallery />
