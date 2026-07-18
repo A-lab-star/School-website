@@ -157,58 +157,7 @@ angle: '0 deg',
 opacity: 1,
 background: '#0000004D'
 }}>
-        <header 
-        style={{
-          width: '90%',
-          maxWidth: '1280px',
-          height: '74px',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          borderRadius: '54px',
-          padding: '0 40px',
-          background: '#FEFEFE',
-          boxShadow: '0px 18px 39.3px -15px rgba(0, 0, 0, 0.1)',
-          boxSizing: 'border-box'
-        }}
-      >
-        {/* Logo */}
-        <div style={{ fontWeight: 'bold', fontSize: '24px', color: '#154ABD' }}>
-          School Logo
-        </div>
-
-        {/* Nav Links */}
-        <nav style={{ display: 'flex', gap: '32px' }}>
-          {['SchoolBridge Portal', 'About', 'News', 'Gallery'].map((item, idx) => (
-            <a 
-              key={idx} 
-              href={`#${item.toLowerCase()}`} 
-              style={{
-                textDecoration: 'none',
-                color: idx === 0 ? '#154ABD' : '#555555', 
-                fontWeight: '500',
-                fontSize: '16px'
-              }}
-            >
-              {item}
-            </a>
-          ))}
-        </nav>
-        <button 
-          style={{
-            background: '#154ABD',
-            color: '#FFFFFF',
-            border: 'none',
-            borderRadius: '24px',
-            padding: '10px 24px',
-            fontSize: '15px',
-            fontWeight: '600',
-            cursor: 'pointer'
-          }}
-        >
-          Contact Us
-        </button>
-      </header>
+        
       <div style={{
         width: 1440,
 height: 540,

@@ -76,68 +76,7 @@ const Home = () => {
         boxSizing: "border-box",
         fontFamily: "Arial, sans-serif",
       }}>
-        <div
-        style={{
-          width: "100%",
-          maxWidth: "1200px",
-          margin: "0 auto",
-          height: "60px",
-          backgroundColor: "#fff",
-          borderRadius: "50px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "0 25px",
-          boxSizing: "border-box",
-        }}
-      >
-        <h4
-          style={{
-            margin: 0,
-            fontWeight: "bold",
-            color: "#000",
-          }}
-        >
-          School Logo
-        </h4>
-
-        <div
-          style={{
-            display: "flex",
-            gap: "25px",
-            alignItems: "center",
-          }}
-        >
-          <a href="#" style={{ textDecoration: "none", color: "#000", fontSize: "14px" }}>
-            Home
-          </a>
-
-          <a href="#" style={{ textDecoration: "none", color: "#000", fontSize: "14px" }}>
-            About
-          </a>
-
-          <a href="#" style={{ textDecoration: "none", color: "#000", fontSize: "14px" }}>
-            News
-          </a>
-
-          <a href="#" style={{ textDecoration: "none", color: "#000", fontSize: "14px" }}>
-            Gallery
-          </a>
-        </div>
-
-        <button
-          style={{
-            background: "#1E4ED8",
-            color: "#fff",
-            border: "none",
-            borderRadius: "30px",
-            padding: "10px 20px",
-            cursor: "pointer",
-          }}
-        >
-          Contact Us →
-        </button>
-      </div>
+        
 
       {/* Hero */}
       <div
@@ -216,11 +155,10 @@ const Home = () => {
               alt=""
               style={{
                 width: 420,
-                height: 400,
-                angle: '0 deg',
-                opacity: 1,
-                borderRadius: '20px',
-
+height: 400,
+angle: '0 deg',
+opacity: 1,
+borderRadius: '20px',
               }}
             />
 
@@ -587,10 +525,12 @@ const Home = () => {
         src={News1}
         alt=""
         style={{
-          width: "100%",
-          height: "220px",
-          borderRadius: "12px",
-          objectFit: "cover",
+          width: 473,
+height: 293,
+angle: '0 deg',
+opacity: 1,
+borderRadius: '8px',
+
         }}
       />
     </div>
@@ -662,9 +602,12 @@ Your kindness will empower her to pursue Nursing Science at Hillside University,
         src={News3}
         alt=""
         style={{
-          width: "100%",
-          height: "220px",
-          objectFit: "cover",
+          width: 576,
+height: 293,
+angle: '0 deg',
+opacity: 1,
+borderRadius: '8px',
+
         }}
       />
 

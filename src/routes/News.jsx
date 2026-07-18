@@ -85,56 +85,7 @@ const News = () => {
           borderTop: "3px solid #0F6FFF",
         }}
       >
-        {/* NAVBAR */}
-
-        <div
-          style={{
-            background: "#fff",
-            borderRadius: "40px",
-            padding: "15px 28px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginBottom: "60px",
-          }}
-        >
-          <h3
-            style={{
-              margin: 0,
-              fontWeight: "700",
-              color: "#111827",
-            }}
-          >
-            School Logo
-          </h3>
-
-          <div
-            style={{
-              display: "flex",
-              gap: "35px",
-              fontSize: "14px",
-              color: "#444",
-            }}
-          >
-            <span>Home</span>
-            <span>About</span>
-            <span>News</span>
-            <span>Gallery</span>
-          </div>
-
-          <button
-            style={{
-              background: "#0C8A5A",
-              color: "#fff",
-              border: "none",
-              padding: "12px 24px",
-              borderRadius: "30px",
-              cursor: "pointer",
-            }}
-          >
-            Contact Us →
-          </button>
-        </div>
+        
 
 
         <div
